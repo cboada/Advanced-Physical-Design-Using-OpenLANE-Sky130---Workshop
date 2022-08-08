@@ -19,7 +19,9 @@ Repository corresponding to the work carried out in the VSD-IAT SKY130/Physical 
 ![](Imagenes/Img-2022-08-07-19-51-42.png)
 
 `run_synthesis`
+
 ![](Imagenes/Img-2022-08-07-20-37-59.png)
+--
 ![](Imagenes/Img-2022-08-07-20-39-11.png)
 
 $$\textit{Number of cells}=14876$$ 
