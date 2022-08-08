@@ -53,7 +53,7 @@ Open the file README.md located in openlane configuration
 
 ![](Imagenes/Img-2022-08-08-02-05-10.png)
 
-run_placement
+`run_placement`
 ![](Imagenes/Img-2022-08-08-02-24-04.png)
 
 `magic -T /home/carlos.boada/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
