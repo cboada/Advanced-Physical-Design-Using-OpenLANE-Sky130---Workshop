@@ -35,3 +35,11 @@ $$buf_1=1656$$
 $$buf_2=8$$
 
 $$ \textit{Buffer ratio}: \frac{(buf_1+buf_2)}{\textit{Number of cells}}=11.18$$ 
+
+# Day 2
+
+Open the file README.md located in openlane configuration
+![](Imagenes/Img-2022-08-07-22-01-03.png)
+![](Imagenes/Img-2022-08-07-22-02-58.png)
+
+# Day 3
