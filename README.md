@@ -46,6 +46,22 @@ run_floorplan
 ![](Imagenes/Img-2022-08-08-00-32-32.png)
 
 ![](Imagenes/Img-2022-08-08-00-38-02.png)
+
+![](Imagenes/Img-2022-08-08-01-54-57.png)
+
+![](Imagenes/Img-2022-08-08-02-03-07.png)
+
+![](Imagenes/Img-2022-08-08-02-05-10.png)
+
+run_placement
+![](Imagenes/Img-2022-08-08-02-24-04.png)
+
+`magic -T /home/carlos.boada/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
+
+
+![](Imagenes/Img-2022-08-08-02-34-36.png)
+
+![](Imagenes/Img-2022-08-08-02-38-55.png)
 # Day 3
 
 The file is cloned in the openlane folder 
@@ -57,5 +73,7 @@ then copy the file sky130A.tech in the current folder and proceed to launch
 
 `magic -T sky130A.tech sky130_inv.mag &`
 ![](Imagenes/Img-2022-08-07-23-58-37.png)
+
+
 
 
