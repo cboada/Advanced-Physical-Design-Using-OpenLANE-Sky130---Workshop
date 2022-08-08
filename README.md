@@ -42,4 +42,20 @@ Open the file README.md located in openlane configuration
 ![](Imagenes/Img-2022-08-07-22-01-03.png)
 ![](Imagenes/Img-2022-08-07-22-02-58.png)
 
+run_floorplan
+![](Imagenes/Img-2022-08-08-00-32-32.png)
+
+![](Imagenes/Img-2022-08-08-00-38-02.png)
 # Day 3
+
+The file is cloned in the openlane folder 
+`git clone https://github.com/nickson-jose/vsdstdcelldesign.git`
+
+![](Imagenes/Img-2022-08-07-23-41-12.png)
+
+then copy the file sky130A.tech in the current folder and proceed to launch
+
+`magic -T sky130A.tech sky130_inv.mag &`
+![](Imagenes/Img-2022-08-07-23-58-37.png)
+
+
