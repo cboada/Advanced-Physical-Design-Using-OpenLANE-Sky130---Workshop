@@ -28,7 +28,7 @@ $$\textit{Number of cells}=14876$$
 
 $$\textit{Total number of flops}=1613$$
 
-$$\textit{Flop ration}:(\textit{Total number of flops}/\textit{Number of cells})*100=10.84$$
+$$\textit{Flop ration}:\frac{\textit{Total number of flops}}{\textit{Number of cells}}=0.1084$$
 
 $$buf_1=1656$$
 
@@ -42,7 +42,7 @@ Open the file README.md located in openlane configuration
 ![](Imagenes/Img-2022-08-07-22-01-03.png)
 ![](Imagenes/Img-2022-08-07-22-02-58.png)
 
-run_floorplan
+`run_floorplan`
 ![](Imagenes/Img-2022-08-08-00-32-32.png)
 
 ![](Imagenes/Img-2022-08-08-00-38-02.png)
@@ -74,6 +74,18 @@ then copy the file sky130A.tech in the current folder and proceed to launch
 `magic -T sky130A.tech sky130_inv.mag &`
 ![](Imagenes/Img-2022-08-07-23-58-37.png)
 
+
+Magic command console
+
+`extract all`
+
+`ext2spice cthresh 0 rthresh 0`
+
+`ext2spice`
+![](Imagenes/Img-2022-08-08-03-04-24.png)
+
+generated model
+![](Imagenes/Img-2022-08-08-03-09-41.png)
 
 
 
